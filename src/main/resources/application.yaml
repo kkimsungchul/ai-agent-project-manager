@@ -1,0 +1,13 @@
+spring :
+  application :
+    name : ai-agent-project-manager
+  ai:
+    openai:
+      api-key: "????"
+      chat:
+        base-url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+        options:
+          model: "gemini-2.5-flash"
+          temperature: 0.0
+        completions-path: "/chat/completions"
+
